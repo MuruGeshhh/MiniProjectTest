@@ -29,9 +29,7 @@ public class ComingSoonModel {
     public void setReleaseState(String releaseState) {
         this.releaseState = releaseState;
     }
-    public String getImage() {
-        return image;
-    }
+    
     
   
 

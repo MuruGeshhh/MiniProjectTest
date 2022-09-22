@@ -60,7 +60,15 @@ public class MainController {
 
 
 
-   
+    @RequestMapping(path={"/", "/index.html", "" })
+    @GetMapping
+    public String getmain(Model model){
+
+        
+        
+        return "/index";
+
+    }
 
 
 
